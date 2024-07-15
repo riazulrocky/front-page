@@ -10,7 +10,6 @@ class homepage extends StatelessWidget {
         title: const Text("Hello, User", style: TextStyle(color: Colors.white)),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.network("https://shorturl.at/ePgif"),
           const SizedBox(height: 20),
